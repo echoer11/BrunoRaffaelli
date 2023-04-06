@@ -1,0 +1,35 @@
+.card {
+    stroke: $redish;
+
+    .cardMar{
+        margin: 5px;
+    }
+
+    .card-header {
+        background-color: $redish;
+        font-family:'Inter';
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    .card-title{
+        font-family:'Inter';
+        font-weight: 200;
+        font-size: 0.8rem;
+    }
+    .card-text{
+        font-family:'Inter';
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+}
+
+.row {
+    &.anchis {
+      width: 75%;
+  
+      @media (max-width: 990px) {
+        width: 100%;
+      }
+    }
+  }
