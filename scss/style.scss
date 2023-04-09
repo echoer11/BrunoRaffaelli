@@ -82,6 +82,7 @@
 			font-family: 'Inter', sans-serif;
 			font-weight: 800;
 			color: $white;
+			padding-top: 20px;
 		}
 
 		h6 {
@@ -89,6 +90,7 @@
 			font-weight: 300;
 			font-size: 1.5rem;
 			color: $white;
+			margin-bottom: 30px;
 		}
 	}
 	@media (max-width: 700px) {
@@ -211,7 +213,7 @@ footer {
 	text-align: center;
 	background-color: #D9E272;
 	color: rgb(69, 69, 69);
-	position: absolute;
+	position: relative;
 	box-sizing: border-box;
 	bottom: 0;
 	left: 0;

@@ -107,12 +107,14 @@
   font-family: "Inter", sans-serif;
   font-weight: 800;
   color: rgb(255, 255, 255);
+  padding-top: 20px;
 }
 .indexis .titulico h6 {
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
   color: rgb(255, 255, 255);
+  margin-bottom: 30px;
 }
 @media (max-width: 700px) {
   .indexis .titulico {
@@ -214,7 +216,7 @@ footer {
   text-align: center;
   background-color: #D9E272;
   color: rgb(69, 69, 69);
-  position: absolute;
+  position: relative;
   box-sizing: border-box;
   bottom: 0;
   left: 0;
