@@ -226,14 +226,16 @@ footer {
 }
 footer.futEvent {
   background-color: rgb(255, 0, 64);
-  position: relative;
 }
 footer.footie {
   background-color: #222529;
   color: rgb(217, 226, 114);
 }
-footer.footsie {
-  position: relative;
+
+@media only screen and (max-width: 767.98px) {
+  footer {
+    position: relative;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

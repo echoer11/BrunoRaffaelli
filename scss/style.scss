@@ -101,10 +101,10 @@
 	}
 	@media (max-width: 767.98px) {
 		.sugarWings {
-		  padding-top: 30px;
-		  padding-bottom: 30px;
+			padding-top: 30px;
+			padding-bottom: 30px;
 		}
-	  }
+	}
 }
 
 .imgZero{
@@ -223,13 +223,14 @@ footer {
 
 	&.futEvent {
 		background-color: $redish;
-		position: relative;
 	}
 	&.footie {
 		background-color: $navColor;
 		color: $lime;
 	}
-	&.footsie {
-		position: relative;
+}
+@media only screen and (max-width: 767.98px) {
+	footer {
+		position:relative;
 	}
 }
