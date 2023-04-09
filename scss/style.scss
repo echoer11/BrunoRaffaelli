@@ -75,7 +75,7 @@
 
 	.titulico {
 		width: 750px;
-		min-height: 900px;
+		min-height: 850px;
 		padding-top: 100px;
 
 		h1 {
@@ -213,7 +213,7 @@ footer {
 	text-align: center;
 	background-color: #D9E272;
 	color: rgb(69, 69, 69);
-	position: relative;
+	position: absolute;
 	box-sizing: border-box;
 	bottom: 0;
 	left: 0;
@@ -224,5 +224,9 @@ footer {
 	&.futEvent {
 		background-color: $redish;
 		position: relative;
+	}
+	&.footie {
+		background-color: $navColor;
+		color: $lime;
 	}
 }

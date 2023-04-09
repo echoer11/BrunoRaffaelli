@@ -100,7 +100,7 @@
 }
 .indexis .titulico {
   width: 750px;
-  min-height: 900px;
+  min-height: 850px;
   padding-top: 100px;
 }
 .indexis .titulico h1 {
@@ -216,7 +216,7 @@ footer {
   text-align: center;
   background-color: #D9E272;
   color: rgb(69, 69, 69);
-  position: relative;
+  position: absolute;
   box-sizing: border-box;
   bottom: 0;
   left: 0;
@@ -227,6 +227,10 @@ footer {
 footer.futEvent {
   background-color: rgb(255, 0, 64);
   position: relative;
+}
+footer.footie {
+  background-color: #222529;
+  color: rgb(217, 226, 114);
 }
 
 /*# sourceMappingURL=style.css.map */
