@@ -58,35 +58,9 @@
 	}
 }
 
-/* Footer Styles */
-footer {
-	font-family: 'Inter', sans-serif;
-	font-weight: 300;
-	text-align: center;
-	background-color: #D9E272;
-	color: rgb(69, 69, 69);
-	position: absolute;
-	box-sizing: border-box;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 50px;
-
-	&.futEvent {
-		background-color: $redish;
-		position: relative;
-	}
-}
-
 @media only screen and (max-height: 600px) {
 	footer {
 		display: none;
-	}
-}
-
-@media (max-width: 767px) {
-	.haikyu {
-		width: 100%;
 	}
 }
 
@@ -99,8 +73,9 @@ footer {
 	background-attachment: fixed;
 	background-size: cover;
 
-	.container {
+	.titulico {
 		width: 750px;
+		min-height: 900px;
 		padding-top: 100px;
 
 		h1 {
@@ -116,6 +91,18 @@ footer {
 			color: $white;
 		}
 	}
+	@media (max-width: 700px) {
+		.titulico {
+			width: 100%;
+			padding-top: 50px;
+		}
+	}
+	@media (max-width: 767.98px) {
+		.sugarWings {
+		  padding-top: 30px;
+		  padding-bottom: 30px;
+		}
+	  }
 }
 
 .eventis {
@@ -125,4 +112,111 @@ footer {
 	background-attachment: fixed;
 	background-size: cover;
 
+}
+
+.contactis {
+
+	height: 100vh;
+	background-color: $lime;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Inter';
+
+	h2 {
+		font-family: 'Inter';
+		font-weight: 700;
+		padding-bottom: 10px;
+	}
+
+	form {
+		.form-control {
+			background-color: $lime;
+			border-color: $darkLime;
+		}
+
+		button {
+			color: $lime;
+
+			&:hover {
+				color: $darkLime;
+				background-color: $nearBlack;
+			}
+		}
+	}
+
+	.redSoc {
+		max-height: 20px;
+		margin-top: 30px;
+
+		img {
+			margin: 3px;
+			max-height: 30px;
+			transition: transform 0.15s ease-in-out;
+
+			&:hover {
+				transform: scale(1.1);
+			}
+
+
+		}
+	}
+}
+
+.featuris {
+
+	height: 100vh;
+	background-color: $navColor;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Inter';
+
+	
+
+	h2 {
+		font-family: 'Inter';
+		font-weight: 700;
+		padding-bottom: 2px;
+		color: $lime;
+	}
+    .pecito{
+		font-family: 'Inter';
+		font-weight: 200;
+		padding-bottom: 10px;
+		color: $white;
+	}
+}
+
+.lineUp {
+	img {
+	  width: 100%;
+	  height: auto;
+	  max-height: 680px;
+	  padding:0px;
+	  margin:0px;
+	  object-fit: cover;
+	}
+  }
+
+  .text-container{
+	width: 300px;
+  }
+/* Footer Styles */
+footer {
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	background-color: #D9E272;
+	color: rgb(69, 69, 69);
+	position: absolute;
+	box-sizing: border-box;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	padding-top: 0px;
+
+	&.futEvent {
+		background-color: $redish;
+		position: relative;
+	}
 }

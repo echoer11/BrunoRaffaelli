@@ -23,16 +23,11 @@
 }
 
 .row.anchis {
-  max-width: 75%;
+  width: 75%;
 }
-@media (max-width: 1390px) {
+@media (max-width: 990px) {
   .row.anchis {
-    max-width: 90%;
-  }
-}
-@media (max-width: 1000px) {
-  .row.anchis {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -100,7 +95,6 @@
 }
 .indexis .titulico {
   width: 750px;
-  min-height: 900px;
   padding-top: 100px;
 }
 .indexis .titulico h1 {
@@ -114,18 +108,6 @@
   font-size: 1.5rem;
   color: rgb(255, 255, 255);
 }
-@media (max-width: 700px) {
-  .indexis .titulico {
-    width: 100%;
-    padding-top: 50px;
-  }
-}
-@media (max-width: 767.98px) {
-  .indexis .sugarWings {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-}
 
 .eventis {
   height: 100vh;
@@ -134,73 +116,15 @@
   background-size: cover;
 }
 
-.contactis {
+.demonios {
   height: 100vh;
-  background-color: rgb(217, 226, 114);
+  background: linear-gradient(to bottom, #222529, #222529, rgb(255, 0, 64));
   background-attachment: fixed;
   background-size: cover;
-  font-family: "Inter";
-}
-.contactis h2 {
-  font-family: "Inter";
-  font-weight: 700;
-  padding-bottom: 10px;
-}
-.contactis form .form-control {
-  background-color: rgb(217, 226, 114);
-  border-color: #b1bc3c;
-}
-.contactis form button {
-  color: rgb(217, 226, 114);
-}
-.contactis form button:hover {
-  color: #b1bc3c;
-  background-color: #181E25;
-}
-.contactis .redSoc {
-  max-height: 20px;
-  margin-top: 30px;
-}
-.contactis .redSoc img {
-  margin: 3px;
-  max-height: 30px;
-  transition: transform 0.15s ease-in-out;
-}
-.contactis .redSoc img:hover {
-  transform: scale(1.1);
 }
 
 .featuris {
-  height: 100vh;
-  background-color: #222529;
-  background-attachment: fixed;
-  background-size: cover;
-  font-family: "Inter";
-}
-.featuris h2 {
-  font-family: "Inter";
-  font-weight: 700;
-  padding-bottom: 2px;
-  color: rgb(217, 226, 114);
-}
-.featuris .pecito {
-  font-family: "Inter";
-  font-weight: 200;
-  padding-bottom: 10px;
-  color: rgb(255, 255, 255);
-}
-
-.lineUp img {
-  width: 100%;
-  height: auto;
-  max-height: 680px;
-  padding: 0px;
-  margin: 0px;
-  object-fit: cover;
-}
-
-.text-container {
-  width: 300px;
+  background-color: #b1bc3c;
 }
 
 /* Footer Styles */
@@ -221,6 +145,4 @@ footer {
 footer.futEvent {
   background-color: rgb(255, 0, 64);
   position: relative;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
