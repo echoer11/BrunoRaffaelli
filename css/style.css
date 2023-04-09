@@ -232,5 +232,8 @@ footer.footie {
   background-color: #222529;
   color: rgb(217, 226, 114);
 }
+footer.footer {
+  position: relative;
+}
 
 /*# sourceMappingURL=style.css.map */

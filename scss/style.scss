@@ -229,4 +229,7 @@ footer {
 		background-color: $navColor;
 		color: $lime;
 	}
+	&.footer {
+		position: relative;
+	}
 }
